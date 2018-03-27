@@ -1,0 +1,24 @@
+{
+  "name": "remedypointsolutions/rps-queue",
+  "description": "RPS AWS SQS support",
+  "type": "yii2-extension",
+  "license": "BSD 3-Clause",
+  "version": "0.0.2",
+  "authors": [
+    {
+      "name": "Igor Salevan",
+      "email": "igor.salevan@gmail.com",
+      "homepage": "http://yiiframework.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*",
+    "aws/aws-sdk-php": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "rps\\sqs\\": "src"
+    }
+  }
+}
