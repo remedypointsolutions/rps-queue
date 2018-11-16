@@ -1,6 +1,6 @@
-#Remedypointsolutions SQS Support Component
+# Yii2 SQS Support Component
 
-##1. Install
+## 1. Install
 
 Add the following code to the required section of your composer.json file:
 
@@ -14,7 +14,7 @@ Add the following code to the required section of your composer.json file:
         "remedypointsolutions/rps-queue": "@dev"
     },
 
-##2. Configure
+## 2. Configure
 
 Add following lines to your params.php file and configure the queues for your AWS account:
 
@@ -32,7 +32,7 @@ Add following lines to your params.php file and configure the queues for your AW
 
 
 
-##3. Update database schema
+## 3. Update database schema
 
 The last thing you need to do is updating your database schema by applying the migrations. Make sure that you have properly configured db application component and run the following command:
 
